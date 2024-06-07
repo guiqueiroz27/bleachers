@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html {
+    font-size: 16px; /* Definindo o tamanho da fonte do elemento raiz */
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body, header h1, header h2, .audicao nav a, .streaming a, .streaming nav a, .mais, .fim, .redes a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header h1 {
+    font-size: 6rem; /* 6 * 16px = 96px */
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+header h2 {
+    font-size: 2rem; /* 2 * 16px = 32px */
+    text-align: center;
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+header h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+header h2 a:visited,
+header h2 a:hover,
+header h2 a:active,
+header h2 a:focus {
+    color: #000;
+}
+
+.audicao {
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+.audicao nav a {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #000;
+}
+
+.image-container {
+    text-align: center;
+    margin: -35px 0 0 0;
+}
+
+.image-container img {
+    width: 46%;
+    height: auto;
+    align-items: center;
+}
+
+.streaming {
+    text-align: center;
+    margin-bottom: -14px;
+    margin-top: -15px;
+}
+
+.streaming a {
+    font-size: 1.25rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.streaming .listen-now {
+    display: block; /* Garante que o elemento ocupe toda a linha */
+    margin-bottom: -20px; /* Reduz a margem inferior */
+    font-weight: bold;
+}
+
+.streaming nav {
+    margin-top: 0; /* Remove a margem superior */
+}
+
+.streaming nav a {
+    font-size: 0.90rem;
+    text-decoration: none;
+    margin-right: 5px;
+    text-align: center;
+    color: #000;
+}
+
+.mais {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+.mais a {
+    margin: 0 3px;
+}
+
+.fim {
+    font-size: 0.875rem;
+    text-decoration: none;
+    margin-right: 5px;
+    text-align: center;
+    color: #000;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes a {
+    margin: 0 5px;
+}
+
+header, main, .image-container, .streaming, .mais, nav {
+    padding: 15px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    color: #000;
+}
